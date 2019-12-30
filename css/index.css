@@ -1,0 +1,227 @@
+
+.d_hearder{
+    width: 1160px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    /* height: 900px; */
+    display: flex;
+}
+/* 左侧的样式 */
+.d_header_left{
+    width: 240px;
+    height: 900px;
+    /* background-color: blueviolet; */
+    position: fixed;
+}
+
+.d_header_left .img{
+    /* width: 80%; */
+    width: 150px;
+    margin: 40px auto;
+}
+.d_header_left .img img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.d_biaoqian>ul{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.d_biaoqian>ul>li>p:last-child{
+    color: #a3a8ae;
+}
+.d_daohang{
+    width: 200px;
+    margin: 10px auto;
+}
+.d_daohang>li{
+    width: 100%;
+    height: 48px;
+    margin-top: 20px;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+.d_daohang>li>a{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 48px;
+    font-size: 20px;
+}
+.d_a_white{
+    color: white;
+}
+.d_a_gray{
+    color:gray;
+}
+.d_color{
+    opacity: .9;
+    background: #ff4e6a;
+    box-shadow: 0 2px 12px #ff4e6a;
+    border-radius: 10px;
+    color: white;
+}
+.d_button{
+    border-radius: 15px;
+    height: 150px;
+    background-color: white;
+    margin-top: 40px;
+}
+.d_button>p{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-bottom: 1px solid #e2dada;
+}
+.d_button>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d_button>div>div{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #efefef;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.d_button>div>div img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+}
+.d_fenlei{
+    border-radius: 15px;
+    height: 330px;
+    background-color: white;
+    margin-top: 40px;   
+}
+.d_fenlei>p{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-bottom: 1px solid #e2dada;
+}
+.d_fenlei>div{
+    padding: 10px 30px;
+    border-bottom: 1px solid #e2dada;
+}
+.d_fenlei>div:last-child{
+    border-bottom: 1px solid white;
+}
+.d_fenlei>div>a{
+    display: flex;
+    line-height: 25px;
+    justify-content: space-between;
+}
+.d_fenlei>div>a>p{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: hotpink;
+    color: white;
+    text-align: center;
+}
+
+/* 右侧的样式 */
+.d_header_right{
+    margin-left:240px ;
+    width: 960px;
+    padding: 20px;
+    /* height: 1900px; */
+    background-color:white;
+}
+.d_liebiao{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-height: 500px;
+    min-height: 65px;
+    background-color: #eee;
+}
+.d_liebiao img{
+    width: 100%;
+    display: block;
+    border-style: none;
+}
+.d_liebiao h1{
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: #e8e8e8;
+    font-size: 2em;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: none;
+    z-index: 1;
+    margin: 0;
+    font-weight: 400;
+}
+.d_liebiao_ul{
+    display: flex;
+    margin-right:20px;
+    margin: 20px 0;
+}
+.d_liebiao_ul>li>img{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+.d_liebiao_ul>li{
+    margin-right:20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+}
+.d_liebiao_ul>li:first-child{
+    background: #ff4e6a;
+}
+.d_liebiao_ul>li:nth-child(2){
+    background: #ffaa73;
+}
+.d_liebiao_ul>li:nth-child(3){
+    background: #fed466;
+}
+.d_liebiao_ul>li:last-child{
+    background: #3cdc82;
+}
+.d_wenzi{
+    padding:0 20px;
+    color: #695f5f;
+}
+.d_detail{
+    margin-bottom: 40px;
+}
+/* 下面的换页 */
+.d_fenye{
+    display: flex;
+    width: 200px;
+    background: rgb(236, 234, 234);
+    border-radius: 5px;
+}
+.d_fenye>li{
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.d_fenye>li>a{
+    display: block;
+}
+.d_fenye_color{
+    color: #fff;
+    background: #ff4e6a;
+    opacity: .9;
+    box-shadow: 0 2px 12px #ff4e6a;
+}
+.d_fenye_color>a{
+    color: white;
+}
